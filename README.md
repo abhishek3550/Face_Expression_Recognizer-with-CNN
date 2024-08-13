@@ -1,14 +1,13 @@
 # Face_Expression_Recognizer-with-CNN
-Face Expression Recognition using Convolutional Neural Networks
 
-Overview
-IN this project i have did training and evaluating two Convolutional Neural Network (CNN) models for facial expression recognition. The models are trained using Keras Sequential API and evaluated on a separate test dataset. Key steps include data preparation, model architecture design, training, evaluation, and comparison.
+This project uses a CNN model to identify and classify facial expressions into categories such as "Happy", "Sad", "Angry", etc. The model is trained using a labeled dataset of facial images. This repository includes the code for model training, evaluation, and an example of how to use the model to predict the emotion depicted in a given image.
 
+The aim of this project is to build a robust model that can accurately classify facial expressions from images. This model can be beneficial in various applications such as human-computer interaction, security systems, and automated customer service systems.
 
-Key Features
-Data Preparation: Organized image data into training, validation, and test sets using the splitfolders library. Preprocessed images by resizing, normalizing pixel values, and applying data augmentation techniques.
-Model Architecture: Designed two CNN architectures with convolutional layers, batch normalization, max-pooling layers, and fully connected layers. Dropout regularization applied for preventing overfitting.
-Model Training: Trained both models using prepared data, with a batch size of 32 and for 30 epochs. Monitored accuracy and loss on training and validation sets during training.
-Model Evaluation: Evaluated models on a separate test dataset and computed the AUC score. Visualized confusion matrix for assessing model performance across different classes.
-Model Comparison: Compared the performance of the two models based on training/validation accuracy and loss.
-Model Saving: Saved both trained models for future use.
+Dataset
+The dataset used for training the model contains images of faces with different expressions. Each image is labeled with the corresponding emotion (e.g., Happy, Sad, Angry, etc.).
+
+Model Architecture
+The model is built using a Convolutional Neural Network (CNN) architecture, which is well-suited for image classification tasks. The key layers include convolutional layers, pooling layers, and fully connected layers. The model is trained to minimize the categorical cross-entropy loss.
+
+<img width="436" alt="image" src="https://github.com/user-attachments/assets/bc8a4ea7-cbd8-48cb-b5a5-7a9d2fce3608">
