@@ -2,7 +2,7 @@
 Face Expression Recognition using Convolutional Neural Networks
 
 Overview
-This repository contains code for training and evaluating two Convolutional Neural Network (CNN) models for facial expression recognition. The models are trained using Keras Sequential API and evaluated on a separate test dataset. Key steps include data preparation, model architecture design, training, evaluation, and comparison.
+IN this project i have did training and evaluating two Convolutional Neural Network (CNN) models for facial expression recognition. The models are trained using Keras Sequential API and evaluated on a separate test dataset. Key steps include data preparation, model architecture design, training, evaluation, and comparison.
 
 
 Key Features
